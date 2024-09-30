@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import img12 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.55.jpeg';
-import cake from '../../assets/pictures/Cake.jpeg';
+import Birthdayimg from '../../assets/pictures/Birthday.jpg';
 import union from '../../assets/pictures/15August.jpeg';
 
 const picture = [
@@ -10,7 +10,7 @@ const picture = [
     title: "CIO Gallery",
   },
   {
-    image: cake,
+    image: Birthdayimg,
     title: "Birthday Gallery",
   },
   {
