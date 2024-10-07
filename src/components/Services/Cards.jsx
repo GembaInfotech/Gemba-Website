@@ -20,7 +20,7 @@ const services = [
     id: "02",
     title: "Migration and Upgrades",
     image: migration,
-    description: "Smooth and efficient migration of legacy systems to modern platforms, along with regular upgrades..",
+    description: "Smooth and efficient migration of legacy systems along with regular upgrades..",
       link: "/migration",
   },
   {
@@ -41,7 +41,7 @@ const services = [
     id: "05",
     title: "SAP Analytics",
     image: SAP,
-    description: "We provide expert SAP services for smooth implementation, integration, and customization, optimizing your business processes for enhanced efficiency..",
+    description: "We provide expert SAP services for smooth implementation, integration, and customization for enhanced efficiency..",
       link: "/SAP",
   },
   {

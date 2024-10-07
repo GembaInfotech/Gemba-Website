@@ -15,15 +15,15 @@ const images = [
 const Reunion_Gallery = () => {
   return (
     <div className='items-center justify-center text-center bg-gradient-to-r from-gray-300 to-gray-200 mt-8 pt-32 pb-24'>
-      <h1 className='text-gray-700 text-center text-3xl sm:text-4xl md:text-5xl font-semibold hover:underline'>Reunion Gallery</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 my-14 mx-24">
-        {images.map((image) => (
-          <div key={image.id} className="relative">
-            <img
-              src={image.src}
-              alt={image.title}
-              className="w-[60vh] h-auto bg-white shadow-lg"
-            />
+      <h1 className='text-gray-700 text-center text-3xl sm:text-4xl md:text-5xl font-semibold hover:underline pt-2'>Reunion Gallery</h1>
+      <div className="columns-2 sm:columns-2 lg:columns-3 gap-1 my-14 mx-6 lg:mx-20">
+   {images.map((image) => (
+     <div key={image.id} className="overflow-hidden">
+       <img
+         src={image.src}
+         alt={image.title}
+         className="object-cover w-full h-full shadow-lg mb-1"
+       />
           </div>
         ))}
       </div>

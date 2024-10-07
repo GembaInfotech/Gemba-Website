@@ -45,14 +45,14 @@ const images = [
 const Picture = () => {
   return (
     <div className=' items-center justify-center text-center bg-gradient-to-r from-gray-300 to-gray-200 mt-8 pt-32 pb-24'>
-    <h1 className='text-gray-700 text-center text-3xl sm:text-4xl md:text-5xl font-semibold hover:underline'>CIO Gallery</h1>
- <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-3 gap-1 my-14 mx-24">
+    <h1 className='text-gray-700 text-center text-3xl sm:text-4xl md:text-5xl font-semibold hover:underline pt-2'>CIO Gallery</h1>
+ <div className="columns-2 sm:columns-2 lg:columns-3 gap-1 my-14 mx-6 lg:mx-20">
    {images.map((image) => (
-     <div key={image.id} className="relative">
+     <div key={image.id} className="overflow-hidden">
        <img
          src={image.src}
          alt={image.title}
-         className="w-[60vh] h-auto bg-white shadow-lg "
+         className="object-cover w-full h-full shadow-lg mb-1"
        />
      </div>
    ))}
