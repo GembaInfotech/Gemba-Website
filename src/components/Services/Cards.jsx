@@ -7,6 +7,7 @@ import Reverse from "../../assets/Reverse.jpeg";
 import imp from "../../assets/imp&trns.jpeg";
 import vendor from "../../assets/vendor.webp";
 import ERP from "../../assets/ERP.jpg";
+import It_Infra from "../../assets/It_Infra.jpg";
 
 const services = [
   {
@@ -65,16 +66,23 @@ const services = [
     description: "Comprehensive ERP solutions that streamline operations, improve decision-making, and enhance overall business performance..",
       link: "/ERP",
   },
+  {
+    id: "09",
+    title: "IT Infra",
+    image: It_Infra,
+    description: "IT infrastructure is a collection of physical and virtual components that support the storage, processing, and analysis of data in an organization..",
+      link: "/Infra",
+  },
 ];
 
 const ServiceCard = () => {
   return (
     <div className="bg-gray-200 py-10 px-4 md:px-6 lg:px-8">
-  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center justify-center">
+  <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center">
     {services.map((service, index) => (
       <div
         key={service.id}
-        className="relative w-full md:w-[300px] h-[250px] rounded-tl-2xl rounded-br-2xl overflow-hidden shadow-xl bg-white"
+        className="relative w-full md:w-[410px] h-[250px] rounded-tl-2xl rounded-br-2xl overflow-hidden shadow-xl bg-white"
       >
         {/* Service Image */}
         <img

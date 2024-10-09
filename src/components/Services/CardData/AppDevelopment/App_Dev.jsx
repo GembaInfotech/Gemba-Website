@@ -1,10 +1,12 @@
 import React from "react";
 import items from "./ItemData";
+import AppDev from "../../../../assets/AppDev.jpg"
 import { NavLink } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const App_Dev = () => {
   return (
+    <>
     <div className="relative h-full overflow-hidden bg-white font-custom pt-20">
       <header className="relative w-full h-[50vh] md:h-[60vh] lg:h-[65vh] overflow-hidden font-custom">
         <img
@@ -24,7 +26,7 @@ const App_Dev = () => {
         {/* Image */}
         <div className="transition-transform duration-300 ease-in-out hover:scale-105 w-full lg:w-1/2 animate-slideInLeft mb-4 md:mb-0 h-full">
           <img
-            src="https://www.gembainfotech.com/wp-content/uploads/2022/09/corporate-training-1536x1024.jpg" // Replace with your image URL
+            src={AppDev}
             alt="Below Header"
             className="w-full h-60 sm:h-64 md:min-h-[20rem] lg:h-96 object-cover rounded-xl border-2 border-white shadow-lg"
           />
@@ -286,6 +288,7 @@ const App_Dev = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

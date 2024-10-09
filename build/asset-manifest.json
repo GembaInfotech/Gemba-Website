@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.43fe379c.css",
-    "main.js": "/static/js/main.f590c38c.js",
+    "main.css": "/static/css/main.bfe5ea1e.css",
+    "main.js": "/static/js/main.e3ceadcd.js",
     "static/media/img3.jpg": "/static/media/img3.6d34b2afe9ca204b8ebe.jpg",
     "static/media/img12.jpg": "/static/media/img12.0179e9b02c5d892a3df8.jpg",
     "static/media/Birthday.jpg": "/static/media/Birthday.8be9e82ae38442f76e8b.jpg",
@@ -50,9 +50,11 @@
     "static/media/epack-logo.png": "/static/media/epack-logo.6d6c83f9175de295e833.png",
     "static/media/AuctionSoft.jpg": "/static/media/AuctionSoft.3790c7f38fe85ae9d5c0.jpg",
     "static/media/Partner.png": "/static/media/Partner.bc70f9c23b22598aef0e.png",
+    "static/media/infra.jpg": "/static/media/infra.02c26b4fdc7e89d2c0d4.jpg",
     "static/media/portfolio.png": "/static/media/portfolio.607cbece4902d55a68fc.png",
     "static/media/SAPCloud.jpg": "/static/media/SAPCloud.6ad1bbe81ffe6f58ac23.jpg",
     "static/media/ERPMimg.jpg": "/static/media/ERPMimg.28718781b089ab3f777c.jpg",
+    "static/media/It_Infra.jpg": "/static/media/It_Infra.c521492bd8e5e52f4dfc.jpg",
     "static/media/homeimg.jpg": "/static/media/homeimg.687c0d0bd6e853e66996.jpg",
     "static/media/Dlink.png": "/static/media/Dlink.2da73206cc9029fd6e3d.png",
     "static/media/Modelimg.PNG": "/static/media/Modelimg.5f41d8376f6eddb09ff3.PNG",
@@ -60,6 +62,7 @@
     "static/media/imp&trns.jpeg": "/static/media/imp&trns.7b38da32206857d710fa.jpeg",
     "static/media/appmng.jpeg": "/static/media/appmng.111aca87060403048f74.jpeg",
     "static/media/Reverse.jpeg": "/static/media/Reverse.9d7cfb491bcb700661ef.jpeg",
+    "static/media/AppDev.jpg": "/static/media/AppDev.501f08935609625eec17.jpg",
     "static/media/Sophos.png": "/static/media/Sophos.534b3378c1b36968f38c.png",
     "static/media/Agrachain.png": "/static/media/Agrachain.e39288df46257d4d224a.png",
     "static/media/GEO_Drive.png": "/static/media/GEO_Drive.e90e52c1b99cb74edb3f.png",
@@ -79,11 +82,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.43fe379c.css.map": "/static/css/main.43fe379c.css.map",
-    "main.f590c38c.js.map": "/static/js/main.f590c38c.js.map"
+    "main.bfe5ea1e.css.map": "/static/css/main.bfe5ea1e.css.map",
+    "main.e3ceadcd.js.map": "/static/js/main.e3ceadcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.43fe379c.css",
-    "static/js/main.f590c38c.js"
+    "static/css/main.bfe5ea1e.css",
+    "static/js/main.e3ceadcd.js"
   ]
 }

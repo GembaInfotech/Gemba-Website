@@ -36,9 +36,10 @@ const FAQ = () => {
   ];
 
   return (
-   
-    <div className="container mx-auto px-6 py-8 mt-32 mb-4 bg-gray-100 rounded-xl">
-      <h2 className="text-3xl font-bold mb-6">Why Should You Choose Us ?</h2>
+   <div className="mt-36 mb-4">
+   <h1 className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl text-center py-8 lg:pt-2 lg:pb-4 hover:underline">Frequently Asked Question</h1>
+    <div className="container mx-auto px-6 py-8 bg-gray-100 ">
+      <h2 className="text-xl lg:text-3xl font-bold mb-6">Why Should You Choose Us ?</h2>
       <div className="grid gap-6 md:grid-cols-2">
         {items.map((item, index) => (
           <div key={index} className="flex items-start space-x-4">
@@ -51,7 +52,7 @@ const FAQ = () => {
         ))}
       </div>
     </div>
-   
+    </div>
   );
 };
 

@@ -18,6 +18,7 @@ import SAP from "./components/Services/CardData/SAP_Analytics/SAP";
 import ReverseAuction from "./components/Services/CardData/ReverseAuction/Reverse_Auction";
 import Vendor from "./components/Services/CardData/Vendor/Vendor";
 import ERP from "./components/Services/CardData/ERP/ERP";
+import IT_Infra from "./components/Services/CardData/IT Infra/IT_Infra";
 import ScrollToTop from "./components/ScrollToTop";
 import CIO_Gallery from "./components/Showcase/CIO_Gallery";
 import Birthday_Gallery from "./components/Showcase/Birthday_Gallery";
@@ -40,13 +41,14 @@ function App() {
           <Route path="/partner" Component={Partner}/>
           <Route path="/faq" Component={FAQ}/>
           <Route path="/app" Component={AppDev}/>
-          <Route path="/migration" Component={Migration}/>
+          <Route path="/migration" element={<Migration />}/>
           <Route path="/implimentation" Component={Implimentation}/>
           <Route path="/appmang" Component={AppManagement}/>
           <Route path="/SAP" Component={SAP}/>
           <Route path="/ReverseAuction" Component={ReverseAuction}/>
           <Route path="/vendor" Component={Vendor}/>
           <Route path="/ERP" Component={ERP}/>
+          <Route path="/Infra" Component={IT_Infra}/>
           <Route path="/CIO Gallery" Component={CIO_Gallery} />
           <Route path="/Birthday Gallery" Component={Birthday_Gallery} />
           <Route path="/Reunion Gallery" Component={Reunion_Gallery} />
