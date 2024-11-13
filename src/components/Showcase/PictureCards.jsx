@@ -45,7 +45,7 @@ const PictureGrid = () => {
   return (
     <div className="bg-gradient-to-b from-gray-100 to-slate-200 pb-10">
       <div className=" w-full justify-center items-center text-center">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold p-6 text-gray-700 text-center hover:underline">Our Memory Wall</h1>
+        <h1 className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl p-6  text-center hover:underline">Our Memory Wall</h1>
       </div>
 
       <div className=" py-4 px-4 sm:px-6">

@@ -7,65 +7,65 @@ const QuickLinks = () => {
 
   return (
     <div className="w-full mt-6 sm:mt-6 md:mt-0">
-  <h2 className="text-xl sm:text-2xl font-bold text-slate-800">Quick Links</h2>
-  <nav className="mt-4">
-    <ul className="list-disc list-inside text-sm sm:text-base">
-      <li className="mt-2">
+  <h2 className="text-lg sm:text-xl font-bold text-slate-800">Quick Links</h2>
+  <nav className="">
+    <ul className="list-disc list-inside text-xs sm:text-base">
+      <li className="mt-1 ">
         <a
           href="#"
           onClick={(e) => {
             e.preventDefault();
             navigate('/');
           }}
-          className="hover:text-teal-500"
+          className="hover:text-[#EA5256]"
         >
           Home
         </a>
       </li>
-      <li className="mt-2">
+      <li className="mt-1">
         <a
           href="#"
           onClick={(e) => {
             e.preventDefault();
             navigate('/about');
           }}
-          className="hover:text-teal-500"
+          className="hover:text-[#EA5256]"
         >
-          About
+          About Us
         </a>
       </li>
-      <li className="mt-2">
+      <li className="mt-1">
         <a
           href="#"
           onClick={(e) => {
             e.preventDefault();
             navigate('/contact');
           }}
-          className="hover:text-teal-500"
+          className="hover:text-[#EA5256]"
         >
           Contact
         </a>
       </li>
-      <li className="mt-2">
+      <li className="mt-1">
         <a
           href="#"
           onClick={(e) => {
             e.preventDefault();
             navigate('/services');
           }}
-          className="hover:text-teal-500"
+          className="hover:text-[#EA5256]"
         >
           Services
         </a>
       </li>
-      <li className="mt-2">
+      <li className="mt-1">
         <a
           href="#"
           onClick={(e) => {
             e.preventDefault();
             navigate('/faq');
           }}
-          className="hover:text-teal-500"
+          className="hover:text-[#EA5256]"
         >
           FAQ
         </a>

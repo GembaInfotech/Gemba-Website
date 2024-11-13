@@ -5,7 +5,7 @@ import SLFimg from "../../assets/SFLimg.PNG"
 const Model = () => {
   return (
     <div className="pt-10 px-4 sm:px-6">
-      <h1 className="text-blue-800 font-bold text-base lg:text-lg text-start">
+      <h1 className="text-blue-500 font-bold text-base text-start">
         OUR METHODOLOGY - SMARTER, FASTER AND LEARNER
       </h1>
       <hr />
@@ -40,7 +40,7 @@ const Model = () => {
 
   {/* The Learner Section */}
   <div className="flex-1 p-4 md:w-full lg:w-1/3 md:lg:mt-80 md:lg:absolute md:lg:right-12 text-start">
-    <h1 className="text-xl lg:text-2xl font-bold text-red-500 ">The Learner</h1>
+    <h1 className="text-xl lg:text-2xl font-bold text-[#EA5256] ">The Learner</h1>
     <p className="text-gray-600"> To succeed, companies must first focus on becoming smarter.
               Enhanced decision-making reduces delays, increases agility, and
               boosts service levels across the organization—paving the way for

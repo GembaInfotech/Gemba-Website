@@ -59,7 +59,7 @@ const SAP = () => {
  
   <div className="w-full sm:w-[400px] lg:w-[400px] h-[216px] bg-slate-200 p-4 sm:p-5 rounded-lg">
     <h2 className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[60px] text-center items-center justify-center">SAP BW Offerings</h2>
-    <p className="py-3 text-gray-600 text-base">
+    <p className="py-2 text-gray-600 text-base">
       SAP BW provides a BI platform for data warehousing, analysis, and reporting.
       Supports management decision-making.
       Gemba InfoTech delivers comprehensive end-to-end SAP BW services.
@@ -69,16 +69,16 @@ const SAP = () => {
   
   <div className="w-full sm:w-[400px] lg:w-[400px] h-[216px] bg-slate-200 p-4 sm:p-5 rounded-lg">
     <h2 className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[60px] text-center items-center justify-center">SAP HANA Offerings</h2>
-    <p className="py-3 text-gray-600 text-base">
+    <p className="py-2 text-gray-600 text-base">
       Gemba InfoTech specializes in In-Memory Computing and SAP HANA integration.
-      Services include strategy, consulting, licensing, implementation, reporting, performance optimization, and support.
+      Services include strategy, consulting, licensing, implementation, reporting, performance optimization.
     </p>
   </div>
 
  
   <div className="w-full sm:w-[400px] lg:w-[400px] h-[216px] bg-slate-200 p-4 sm:p-5 rounded-lg">
     <h2 className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[60px] text-center items-center justify-center">SAP Business Objects</h2>
-    <p className="py-3 text-gray-600 text-base">
+    <p className="py-2 text-gray-600 text-base">
       Expertise in strategy, implementation, and management of SAP Business Objects.
       Gemba InfoTech excels at integrating SAP Business Objects with SAP BW and SAP HANA.
     </p>
@@ -128,7 +128,7 @@ const SAP = () => {
               Speak to our experts
             </h3>
 
-            <button className="mt-8 md:mt-0 bg-blue-700 hover:bg-blue-900 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
+            <button className="mt-8 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
               <NavLink to="/contact"> Contact Us </NavLink>
               <FaArrowRightLong className="text-lg md:text-xl" />
             </button>

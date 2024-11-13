@@ -12,8 +12,8 @@ const BackToTop = () => {
       onClick={handleScrollToTop}
     >
       <span className="text-gray-500">Back To Top</span>
-      <div className="flex items-center justify-center w-8 h-8 rounded-full border border-green-500 hover:border-blue-700">
-        <FaArrowUp className="text-green-500 hover:text-blue-700" />
+      <div className="flex items-center justify-center w-6 h-6 md:w-8 md:h-8 rounded-full border border-blue-500 hover:border-[#EA5256]">
+        <FaArrowUp className="text-blue-500 hover:text-[#EA5256]" />
       </div>
     </div>
   );

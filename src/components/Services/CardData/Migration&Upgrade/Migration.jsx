@@ -166,7 +166,7 @@ const Migration = () => {
               Speak to our experts
             </h3>
 
-            <button className="mt-8 md:mt-0 bg-blue-700 hover:bg-blue-900 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
+            <button className="mt-8 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
             
               <NavLink to="/contact"> Contact Us </NavLink>
               <FaArrowRightLong className="text-lg md:text-xl" />

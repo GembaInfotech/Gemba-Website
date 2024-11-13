@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaLinkedin, FaBars, FaTimes } from "react-icons/fa"; // Import icons for the menu toggle
+import { FaBriefcase, FaPhoneAlt, FaEnvelope, FaLinkedin, FaBars, FaTimes } from "react-icons/fa"; // Import icons for the menu toggle
 import logo from "../../assets/GEMBA_LOGO.png";
 import { NavLink } from "react-router-dom";
 
@@ -32,35 +32,60 @@ const Navbar = () => {
         }`}
       >
         {/* Topbar */}
-        <div className={`bg-gray-800 text-white ${scrolled ? "hidden" : "block"}`}>
-      <div className="container mx-auto flex justify-between items-center py-2 px-4 flex-wrap md:flex-nowrap">
-        
-        {/* Contact Section */}
-        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-sm">
-          <a href="tel:+91-172-4659657" className="hover:text-gray-400">
-            +91-172-4659657
-          </a>
-          <a href="mailto:sales-team@gembainfotech.com" className="hover:text-gray-400">
-            sales-team@gembainfotech.com
-          </a>
+        <div
+          className={`bg-gray-800 text-white ${scrolled ? "hidden" : "block"}`}
+        >
+          <div className="container mx-auto flex justify-end md:justify-end py-2 px-4 flex-wrap md:flex-nowrap">
+            {/* Contact Section */}
+            <div className="flex flex-row md:flex-row space-x-4 space-y-0 md:space-y-0 md:space-x-4 text-sm  lg:items-center">
+              {/* Careers Tab */}
+              <NavLink
+                className="flex items-center hover:text-gray-400"
+                to="/careers"
+              >
+                <FaBriefcase className="text-md" /> {/* Icon for Careers */}
+                <span className="hidden md:inline ml-1">Careers</span>
+              </NavLink>
+
+              {/* Phone Number Tab */}
+              <a
+                href="tel:+91-172-4659657"
+                className="flex items-center hover:text-gray-400"
+              >
+                <FaPhoneAlt className="text-md" /> {/* Icon for Phone */}
+                <span className="hidden md:inline ml-1">+91-172-4659657</span>
+              </a>
+
+              {/* Email Tab */}
+              <a
+                href="mailto:sales-team@gembainfotech.com"
+                className="flex items-center hover:text-gray-400"
+              >
+                <FaEnvelope className="text-md" /> {/* Icon for Email */}
+                <span className="hidden md:inline ml-1">
+                  sales-team@gembainfotech.com
+                </span>
+              </a>
+
+              {/* LinkedIn Tab */}
+              <a
+                href="https://www.linkedin.com/company/gemba-infotech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center hover:text-gray-400"
+              >
+                <FaLinkedin className="text-md" />
+              </a>
+            </div>
+          </div>
         </div>
-        
-        {/* LinkedIn Icon (Hidden on mobile, visible on larger screens) */}
-        <div className="mt-4 md:mt-0 justify-end w-full md:w-auto mx-6">
-          <a
-            href="https://www.linkedin.com/company/gemba-infotech/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-400"
-          >
-            <FaLinkedin />
-          </a>
-        </div>
-      </div>
-    </div>
 
         {/* Menubar */}
-        <div className={`bg-white font-sans shadow-md duration-1000 ${scrolled ? "mt-0" : "mt-0"}`}>
+        <div
+          className={`bg-white font-sans shadow-md duration-1000 ${
+            scrolled ? "mt-0" : "mt-0"
+          }`}
+        >
           <div className="container mx-auto flex justify-between items-center py-4 px-4">
             <div className="flex-shrink-0">
               <img src={logo} alt="Logo" className="h-10 w-auto" />
@@ -68,8 +93,12 @@ const Navbar = () => {
 
             {/* Hamburger Icon for mobile */}
             <div className="md:hidden">
-              <button onClick={toggleMenu} className="text-2xl focus:outline-none">
-                {menuOpen ? <FaTimes /> : <FaBars />} {/* Toggle between hamburger and close icon */}
+              <button
+                onClick={toggleMenu}
+                className="text-2xl focus:outline-none"
+              >
+                {menuOpen ? <FaTimes /> : <FaBars />}{" "}
+                {/* Toggle between hamburger and close icon */}
               </button>
             </div>
 
@@ -130,7 +159,7 @@ const Navbar = () => {
                 href="https://gembainfotech.com/hrm/admin/users/login"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="my-2 bg-green-500 font-semibold text-md px-6 py-3 rounded-full hover:bg-red-500"
+                className="my-2 bg-[#EA5256] font-semibold text-md px-6 py-3 rounded-full hover:bg-[#e77b7f]"
               >
                 ESS/MSS
               </a>
@@ -196,7 +225,7 @@ const Navbar = () => {
               href="https://gembainfotech.com/hrm/admin/users/login"
               target="_blank"
               rel="noopener noreferrer"
-              className="block px-6 py-2 mt-4 bg-green-500 hover:bg-red-500 hover:text-white font-semibold text-md rounded-full mx-auto"
+              className="block px-6 py-2 mt-4 bg-green-500 hover:[#EA5256] hover:text-white font-semibold text-md rounded-full mx-auto"
             >
               ESS/MSS
             </a>

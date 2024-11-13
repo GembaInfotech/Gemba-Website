@@ -14,7 +14,7 @@ const images = [
 const Reunion_Gallery = () => {
   return (
     <div className='items-center justify-center text-center bg-gradient-to-r from-gray-300 to-gray-200 mt-8 pt-32 pb-24'>
-      <h1 className='text-gray-700 text-center text-3xl sm:text-4xl md:text-5xl font-semibold hover:underline pt-2'>Birthday Gallery</h1>
+      <h1 className='text-center font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl hover:underline pt-2'>Birthday Gallery</h1>
       <div className="columns-2 sm:columns-2 lg:columns-3 gap-1 my-14 mx-6 lg:mx-20">
    {images.map((image) => (
      <div key={image.id} className="overflow-hidden">

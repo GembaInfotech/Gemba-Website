@@ -17,9 +17,9 @@ const showcase = () => {
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col ">
         <div className="px-4 sm:px-6 py-36 sm:py-36 md:px-12 md:py-40 contrast-200 h-full">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white animate-slideInLeft">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl  font-bold text-white animate-slideInLeft">
           Join the Journey, </h1>
-            <h2 className=" text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold animate-slideInRight text-green-600">
+            <h2 className=" text-3xl sm:text-4xl md:text-5xl  font-bold animate-slideInRight text-green-600">
             Create the Story
             </h2>
         </div>

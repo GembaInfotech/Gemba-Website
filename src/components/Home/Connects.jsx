@@ -15,24 +15,24 @@ const Connects = () => {
         opacity: "0.7",
       }}
     >
-      <div className="px-4 sm:px-6 md:px-12 pt-16 md:pt-20 bg-black bg-opacity-25 h-full">
+      <div className="px-4 sm:px-6 md:px-12 pt-16 md:py-28 bg-black bg-opacity-25 h-full">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           {/* Responsive heading text */}
-          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+          <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             Your Opportunity is our
             <br />
-            Mission - <span className="text-green-600">Let's Connect</span>
+            Mission - Let's Connect
           </p>
 
           {/* Responsive button */}
-          <button className="mt-8 md:mt-0 bg-blue-700 hover:bg-blue-900 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
+          <button className="mt-8 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
             <NavLink to="/contact">Get Started</NavLink>
             <FaArrowRightLong className="text-lg md:text-xl" />
           </button>
         </div>
 
         {/* Responsive subtitle text */}
-        <p className="mt-6 text-white font-bold text-base sm:text-lg lg:text-xl">
+        <p className="mt-6 text-white sm:text-base lg:text-lg">
           Experience the Power of Instant Innovation
         </p>
       </div>

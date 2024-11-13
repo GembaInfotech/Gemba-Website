@@ -28,10 +28,10 @@ const About = () => {
         <div className="flex flex-col lg:flex-row justify-between bg-slate-100 py-10 px-4 sm:px-6 ">
           {/* Text Section */}
           <div className="lg:pr-6 lg:w-1/2 w-full font-custom">
-            <h2 className="text-blue-800 font-semibold text-base lg:text-lg">OVERVIEW</h2>
+            <h2 className="text-blue-500 font-semibold text-base ">OVERVIEW</h2>
             <hr />
             <br />
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-700">
+            <h1 className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl">
               Your Challenges, Our Solutions
             </h1>
             <br />
@@ -73,12 +73,12 @@ const About = () => {
 
           {/* Text Section */}
           <div className="lg:pl-8 lg:w-1/2 w-full mt-6 lg:mt-0 font-custom flex flex-col">
-            <h2 className="text-blue-800 font-semibold text-base lg:text-lg">
+            <h2 className="text-blue-500 font-semibold text-base ">
               OUR PRESENT FOCUS
             </h2>
             <hr />
             <br/>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-700">
+            <h1 className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl">
               Crafting Tomorrow's Digital Solutions Today
             </h1>
             <br />
@@ -107,12 +107,12 @@ const About = () => {
         </div>
 
         <div className="bg-slate-500 py-10 px-4 sm:px-6 justify-between">
-          <h2 className="text-gray-100 font-semibold text-base lg:text-lg pb-3">
+          <h2 className="text-gray-100 font-semibold text-base  pb-3">
             EXPLORE COMPANY
           </h2>
           <hr className="border-gray-300" />
           <br />
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100">
+          <h1 className="font-bold text-gray-100 text-2xl sm:text-3xl lg:text-4xl">
             Your trusted partner in technology
           </h1>
           <br />
@@ -120,12 +120,12 @@ const About = () => {
         </div>
 
         <div className="bg-slate-100 py-10 px-4 sm:px-6  justify-between">
-          <h2 className="text-blue-800 font-semibold text-base lg:text-lg pb-3">
+          <h2 className="text-blue-500 font-semibold text-base  pb-3">
             EXPLORE COMPANY
           </h2>
           <hr />
           <br />
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-700 ">
+          <h1 className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl ">
             Transforming Digital Landscapes, Starting with People.
           </h1>
           <br />
@@ -165,17 +165,17 @@ const About = () => {
           }}>
 
           <div className="px-4 sm:px-6 md:px-12 pt-12 md:pt-16 bg-black bg-opacity-25 h-full">
-            <h1 className="text-white font-bold text-sm sm:text-lg lg:text-xl ">
+            <h1 className="text-white sm:text-base lg:text-lg">
               <u className="pb-2">CONNECT WITH US</u>
             </h1>
             <br />
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-              <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+              <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-white ">
                 We are committed <br />
                 to delivering only <br />
-                <span className="text-green-600">the best</span>
+                the best
               </p>
-              <button className="mt-8 md:mt-0 bg-blue-700 hover:bg-blue-900 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
+              <button className="mt-8 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
                 <NavLink to="/contact">Get Started</NavLink>
                 <FaArrowRightLong className="text-lg md:text-xl" />
               </button>

@@ -17,11 +17,11 @@ const Product = () => {
         backgroundPosition: "bottom",
       }}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center">
+      <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center">
         <div className="px-4 sm:px-6 pt-32 sm:py-36 md:py-40 contrast-200 h-full">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white animate-slideInLeft">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white animate-slideInLeft">
           One Platform, Endless Possibilities-</h1>
-            <h2 className=" text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold animate-slideInRight text-green-600">
+            <h2 className=" text-3xl sm:text-4xl md:text-5xl font-bold animate-slideInRight text-[#EA5256]">
             ERP to Healthcare 
             </h2>
         </div>
@@ -37,11 +37,12 @@ const Product = () => {
       backgroundPosition: "center",
     }}
   >
-    <div className="px-4 sm:px-6 py-20 md:pt-20 bg-black bg-opacity-25 h-full">
+    <div className="px-4 sm:px-6 py-20 md:py-28 bg-black bg-opacity-25 h-full">
   <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-    <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">Connect with Our <br /><span className="text-green-600">Experts</span></p>
+    <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">Connect with Our <br />
+    Experts</p>
 
-    <button className="mt-8 md:mt-0 bg-blue-700 hover:bg-blue-900 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
+    <button className="mt-8 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
             <NavLink to="/contact">Get Started</NavLink>
             <FaArrowRightLong className="text-lg md:text-xl" />
           </button>

@@ -23,7 +23,9 @@ import ScrollToTop from "./components/ScrollToTop";
 import CIO_Gallery from "./components/Showcase/CIO_Gallery";
 import Birthday_Gallery from "./components/Showcase/Birthday_Gallery";
 import Reunion_Gallery  from "./components/Showcase/Reunion_Gallery";
-
+import Career from "./Screens/Header/Career";
+import PrivacyPolicy from "./Screens/Footer/PrivcyPolicy.jsx";
+import TermsConditions from "./Screens/Footer/Terms&Conditions.jsx";
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
         <Navbar />
         <ScrollToTop /> 
         <Routes>
+        <Route path="/careers" Component={Career} />
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
           <Route path="/services" Component={Services} />
@@ -41,7 +44,7 @@ function App() {
           <Route path="/partner" Component={Partner}/>
           <Route path="/faq" Component={FAQ}/>
           <Route path="/app" Component={AppDev}/>
-          <Route path="/migration" element={<Migration />}/>
+          <Route path="/migration" Component={Migration}/>
           <Route path="/implimentation" Component={Implimentation}/>
           <Route path="/appmang" Component={AppManagement}/>
           <Route path="/SAP" Component={SAP}/>
@@ -52,6 +55,8 @@ function App() {
           <Route path="/CIO Gallery" Component={CIO_Gallery} />
           <Route path="/Birthday Gallery" Component={Birthday_Gallery} />
           <Route path="/Reunion Gallery" Component={Reunion_Gallery} />
+          <Route path="/Privacy Policy" Component={PrivacyPolicy}/>
+          <Route path="/Terms & Conditions" Component={TermsConditions}/>
         </Routes>
       </div>
       <Footer/>

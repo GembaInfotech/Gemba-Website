@@ -12,7 +12,7 @@ const BrochureCard = () => {
         <a 
           href='/assets/Brochure.pdf'
           download='Brochure.pdf' 
-          className="bg-white text-blue-500 hover:bg-red-500 hover:text-white font-semibold py-2 px-2 rounded-3xl flex items-center justify-center"
+          className="bg-white text-blue-500 hover:bg-[#EA5256] hover:text-white font-semibold py-2 px-2 rounded-3xl flex items-center justify-center"
         >
           Get A Copy <span className="ml-2">→</span>
         </a>

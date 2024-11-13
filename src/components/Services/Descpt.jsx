@@ -4,7 +4,7 @@ const Descpt = () => {
   return (
     <>
     <div className="bg-gray-100 w-full justify-center items-center px-4 sm:px-6">
-      <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold py-6 text-gray-700 text-start lg:text-center">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold py-6 text-gray-700 text-start lg:text-center">
       Innovative Solutions for a Dynamic World
       </h1>
       </div>

@@ -27,7 +27,7 @@ const TriangleSection = () => {
       </div>
 
    <div>
-      <div className="text-red-500 border-l-2 border-red-500 pl-2 m-2 flex-1 sm:w-full lg:w-72 text-start  ">
+      <div className="text-[#EA5256] border-l-2 border-[#EA5256] pl-2 m-2 flex-1 sm:w-full lg:w-72 text-start  ">
         <h2 className="font-bold text-lg lg:text-xl">OUR MISSION</h2>
         <p className="text-gray-600 text-base">
           Gemba Infotech's fundamental company values enable us to perform our mission in the best way possible by means of:

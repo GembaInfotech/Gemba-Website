@@ -43,7 +43,7 @@ function PartnerCompany() {
     return (
        
         <div className=' items-center justify-center text-center bg-gradient-to-r from-gray-300 to-gray-200 p-8'>
-         <h1 className=' text-3xl sm:text-4xl md:text-5xl font-bold text-gray-700 text-center hover:underline'>Our Trusted Partners</h1>
+         <h1 className=' font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl text-center hover:underline'>Our Trusted Partners</h1>
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-1 my-14 mx-12 md:mx-20 lg:mx-28">
         {images.map((image) => (
           <div key={image.id} className="relative">

@@ -140,7 +140,7 @@ const App_Dev = () => {
           <div className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[64px] text-center">
             Mobility Applications
           </div>
-          <div className="mt-4 sm:mt-5 text-gray-600 text-base">
+          <div className="my-2 sm:mt-4 text-gray-600 text-base">
             <p>
               We have been working on using SAP Mobile Platforms, SAP Fiori to
               enhance user experience, provide user-friendly UIs and enable
@@ -154,7 +154,7 @@ const App_Dev = () => {
           <div className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[64px] text-center">
             Application Integrations
           </div>
-          <div className="mt-4 sm:mt-5 text-gray-600 text-base ">
+          <div className="my-2 sm:mt-4 text-gray-600 text-base ">
             <p>
               We are experts in system integrations using SAP Cloud Integration
               Services, OData Services, WSDL, Soap UI etc.
@@ -167,7 +167,7 @@ const App_Dev = () => {
           <div className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[64px] text-center">
             HANA Services
           </div>
-          <div className="mt-4 sm:mt-5 text-gray-600 text-base ">
+          <div className="my-2 sm:mt-4 text-gray-600 text-base ">
             <p>
               Expertise in SAP HANA DB optimization and developments. We can
               optimize your reporting and developments post-migrations using
@@ -280,7 +280,7 @@ const App_Dev = () => {
               Speak to our experts
             </h3>
 
-            <button className="mt-8 md:mt-0 bg-blue-700 hover:bg-blue-900 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
+            <button className="mt-8 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white rounded-3xl w-36 h-10 md:w-40 md:h-12 font-semibold flex items-center justify-evenly">
               <NavLink to="/contact"> Contact Us </NavLink>
               <FaArrowRightLong className="text-lg md:text-xl" />
             </button>

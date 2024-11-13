@@ -20,7 +20,7 @@ function Partner() {
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-600 animate-slideInLeft py-2 sm:py-3 md:py-4">
         Our Partners
       </h1>
-      <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-lg md:max-w-xl animate-slideInRight">
+      <p className="text-sm sm:text-base text-gray-600 max-w-lg md:max-w-xl animate-slideInRight">
         At <strong>Gemba InfoTech</strong>, we believe in forming partnerships that drive success through collaboration and innovation. As your trusted partner, we are dedicated to understanding your unique business needs and delivering tailored solutions that empower your growth. Together, we’ll navigate challenges and seize opportunities, ensuring your business thrives in a rapidly evolving landscape.
       </p>
     </div>
