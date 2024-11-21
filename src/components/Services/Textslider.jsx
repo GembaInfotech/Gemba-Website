@@ -13,7 +13,7 @@ const TextSlider = () => {
   }}
 >
   <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center">
-    <div className="px-4 pt-36 sm:px-6 sm:py-36 md:px-12 md:py-40 contrast-200 h-full">
+    <div className="px-4 pt-36 sm:px-6 sm:py-36 md:px-12 md:py-40  h-full">
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white animate-slideInLeft">
         Excellence in Service,
       </h1>

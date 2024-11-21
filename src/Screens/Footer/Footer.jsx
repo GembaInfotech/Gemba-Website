@@ -2,7 +2,7 @@
 import React from "react";
 import {
   FaMapMarkerAlt,
-  FaPhone,
+  FaPhoneAlt,
   FaEnvelope,
   FaLinkedin,
 } from "react-icons/fa";
@@ -39,7 +39,7 @@ const Footer = () => {
         </p>
         <p className="flex items-start mt-2">
           <span className="mr-1">
-            <FaPhone />
+            <FaPhoneAlt />
           </span>
           +91-172-4659657
         </p>
@@ -71,13 +71,13 @@ const Footer = () => {
   <br />
 
   <div className="flex flex-col md:flex-row items-center justify-between border-t border-slate-300 py-4">
-  <div className="flex flex-col items-center md:items-start">
-  <p className="text-xs sm:text-sm text-gray-500">
-    &copy; 2021 Gemba Infotech. All rights reserved.
+  <div className="flex flex-col md:flex-row items-center md:items-start space-x-4">
+  <p className="text-xs sm:text-sm text-gray-500 ">
+    &copy; 2021 Gemba Infotech.  All rights reserved. 
   </p>
-  <p className="text-xs sm:text-sm text-gray-500">
-  <NavLink to="/Privacy Policy" className="hover:text-[#EA5256]" >Privacy Policy  |  </NavLink>
-       <NavLink to="/Terms & Conditions" className="hover:text-[#EA5256]" >Terms & Conditions</NavLink>
+  <p className="text-xs sm:text-sm text-gray-500 space-x-4">
+  <NavLink to="/terms-and-conditions" className="hover:text-[#EA5256]" > Terms & Conditions</NavLink>
+  <NavLink to="/privacy-policy" className="hover:text-[#EA5256]" > Privacy Policy</NavLink>
   </p>
   </div>
   <div className=" md:ml-auto text-xs sm:text-sm">

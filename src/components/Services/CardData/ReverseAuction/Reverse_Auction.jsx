@@ -1,5 +1,7 @@
 import React from 'react';
 import Auction from '../../../../assets/AuctionSoft.jpg';
+import cardfooter from '../../../../assets/cardfooter.jpg';
+import cardheader from "../../../../assets/cardheader.jpg";
 import  AuctionData from './AuctionData';
 import { NavLink } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -10,7 +12,7 @@ const Reverse_Auction = () => {
     <div className="relative h-full overflow-hidden bg-white font-custom pt-20">
             <header className="relative w-full h-[50vh] md:h-[60vh] lg:h-[65vh] overflow-hidden font-custom">
         <img
-          src="https://png.pngtree.com/background/20210709/original/pngtree-earth-transaction-global-trade-data-picture-image_926206.jpg"
+          src={cardheader}
           alt="Header"
           className="absolute inset-0 object-cover w-full h-full"
         />
@@ -49,7 +51,7 @@ const Reverse_Auction = () => {
 
 <div className="relative w-full h-[50vh] md:h-[60vh] lg:h-[65vh]">
         <img
-          src="https://t3.ftcdn.net/jpg/05/79/48/52/360_F_579485255_hzHox0stuQmBx5QViwnQqQjk7RD2AJza.jpg"
+          src={cardfooter}
           alt="Footer Background"
           className="absolute inset-0 object-cover w-full h-full"
         />

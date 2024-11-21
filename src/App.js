@@ -32,7 +32,7 @@ function App() {
     <>
       <div className="font-custom">
         <Navbar />
-        <ScrollToTop /> 
+        <ScrollToTop />
         <Routes>
         <Route path="/careers" Component={Career} />
           <Route path="/" Component={Home} />
@@ -52,11 +52,11 @@ function App() {
           <Route path="/vendor" Component={Vendor}/>
           <Route path="/ERP" Component={ERP}/>
           <Route path="/Infra" Component={IT_Infra}/>
-          <Route path="/CIO Gallery" Component={CIO_Gallery} />
-          <Route path="/Birthday Gallery" Component={Birthday_Gallery} />
-          <Route path="/Reunion Gallery" Component={Reunion_Gallery} />
-          <Route path="/Privacy Policy" Component={PrivacyPolicy}/>
-          <Route path="/Terms & Conditions" Component={TermsConditions}/>
+          <Route path="/cio-gallery" Component={CIO_Gallery} />
+          <Route path="/birthday-gallery" Component={Birthday_Gallery} />
+          <Route path="/reunion-gallery" Component={Reunion_Gallery} />
+          <Route path="/privacy-policy" Component={PrivacyPolicy}/>
+          <Route path="/terms-and-conditions" Component={TermsConditions}/>
         </Routes>
       </div>
       <Footer/>

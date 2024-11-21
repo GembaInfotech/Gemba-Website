@@ -23,7 +23,8 @@ const UploadCV = () => {
         htmlFor="cvUpload"
         className="mt-2 cursor-pointer hover:underline text-gray-600"
       >
-        📄 Upload your CV 
+        <span role="img" aria-label="Upload CV">📂</span>
+        Upload your CV 
       </label>
       {/* Display selected file name */}
       {selectedFile && (

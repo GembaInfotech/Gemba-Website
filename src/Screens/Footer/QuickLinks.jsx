@@ -63,6 +63,18 @@ const QuickLinks = () => {
           href="#"
           onClick={(e) => {
             e.preventDefault();
+            navigate('/careers');
+          }}
+          className="hover:text-[#EA5256]"
+        >
+          Careers
+        </a>
+      </li>
+      <li className="mt-1">
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
             navigate('/faq');
           }}
           className="hover:text-[#EA5256]"

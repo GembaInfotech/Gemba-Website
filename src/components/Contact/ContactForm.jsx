@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-// import UploadCV from './UploadCV';
+
 
 const ContactForm = () => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -106,11 +105,9 @@ const ContactForm = () => {
       <div className="lg:w-1/4 mt-6 lg:mt-0 lg:bg-gradient-to-l from-blue-100 to-transparent rounded-r-lg lg:pt-6">
         <h3 className=" text-xl font-bold mb-1">Our contacts</h3>
         <div className="flex flex-col">
-        <a href="tel:+91-172-4659657" className="text-gray-600 mb-2 ">📞 +91-172-4659657</a>
-        <a href="mailto:sales-team@gembainfotech.com" className="text-gray-600 mb-4 ">✉️ sales-team@gembainfotech.com</a>
+        <a href="tel:+91-172-4659657" className="text-gray-600 mb-2 "><span role="img" aria-label="Phone">📞</span> +91-172-4659657</a>
+        <a href="mailto:sales-team@gembainfotech.com" className="text-gray-600 mb-4 "><span role="img" aria-label="Email">✉️</span> sales-team@gembainfotech.com</a>
         </div>
-        {/* <h3 className="text-xl font-bold mb-1">Join our team</h3>
-        <UploadCV/> */}
       </div>
     </div>
     </div>

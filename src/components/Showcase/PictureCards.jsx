@@ -8,23 +8,27 @@ const picture = [
   {
     image: img12,
     title: "CIO Gallery",
+    path: "cio-gallery"
   },
   {
     image: Birthdayimg,
     title: "Birthday Gallery",
+    path: "birthday-gallery"
+
   },
   {
     image: union,
     title: "Reunion Gallery",
+    path: "reunion-gallery",
+
   },
 ];
 
-const PictureCard = ({ image, title }) => {
+const PictureCard = ({ image, path, title }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/${title}`); 
-    // Fixed the path
+    navigate(`/${path}`); 
   };
 
   return (
@@ -36,7 +40,7 @@ const PictureCard = ({ image, title }) => {
         {/* Display image using img tag */}
         <img src={image} alt={title} className="w-full h-48 object-cover rounded-md" />
       </div>
-      <h3 className="text-xl font-bold mb-4 text-gray-600">{title}</h3>
+      <h3 className="text-xl font-bold mb-4 text-gray-600 cursor-pointer">{title}</h3>
     </div>
   );
 };

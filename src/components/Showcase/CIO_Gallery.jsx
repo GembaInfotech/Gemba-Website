@@ -5,7 +5,6 @@ import img3 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.02 (1
 import img4 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.02 (2).jpeg';
 import img5 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.02.jpeg';
 import img6 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.05.jpeg';
-// import img7 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.06.jpeg';
 import img8 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.07 (1).jpeg';
 import img9 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.07.jpeg';
 import img10 from '../../assets/pictures/WhatsApp Image 2024-09-10 at 12.38.08.jpeg';
@@ -31,7 +30,6 @@ const images = [
     { id: 18, src: img18, title: 'Image 18'},
     { id: 1, src: img1, title: 'Image 15' },
     { id: 15, src: img15, title: 'Image 1' },
-    // { id: 7, src: img7, title: 'Image 7' },
     { id: 16, src: img16, title: 'Image 16' },
     { id: 17, src: img17, title: 'Image 17' },
     { id: 2, src: img2, title: 'Image 2' },

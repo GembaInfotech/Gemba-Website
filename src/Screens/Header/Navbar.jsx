@@ -159,7 +159,7 @@ const Navbar = () => {
                 href="https://gembainfotech.com/hrm/admin/users/login"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="my-2 bg-[#EA5256] font-semibold text-md px-6 py-3 rounded-full hover:bg-[#e77b7f]"
+                className="my-2 bg-[#EA5256] font-semibold text-md px-6 py-2 rounded-full hover:bg-[#e77b7f]"
               >
                 ESS/MSS
               </a>

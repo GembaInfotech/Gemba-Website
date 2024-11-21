@@ -6,33 +6,33 @@ import { FaUsersGear, FaGears } from "react-icons/fa6";
 
 const products = [
     {
-      icon: <MdOutlineHealthAndSafety size={40} className="text-green-500" />,
+      icon: <MdOutlineHealthAndSafety size={40} className="text-[#EA5256]" />,
       title: "Healthcare Management",
       description: "Our Healthcare Management solutions optimize patient care with advanced, integrated technology.",
     },
    
     {
-        icon: <GrUserManager size={40} className="text-green-500" />,
+        icon: <GrUserManager size={40} className="text-[#EA5256]" />,
         title: "HRMS Management",
         description: "Our HRMS management solutions streamline human resources processes with cutting-edge technology.",
       },
       {
-        icon: <MdOutlineInventory size={40} className="text-green-500" />,
+        icon: <MdOutlineInventory size={40} className="text-[#EA5256]" />,
         title: "Inventory Management",
         description: "Our inventory management solutions ensure seamless operations through advanced automation.",
       },
       {
-        icon: <LiaFileInvoiceDollarSolid size={40} className="text-green-500" />,
+        icon: <LiaFileInvoiceDollarSolid size={40} className="text-[#EA5256]" />,
         title: "Assets Management",
         description: "Our asset management solutions provide comprehensive tracking and efficiency of your assets.",
       },
       {
-        icon: <FaUsersGear size={40} className="text-green-500" />,
+        icon: <FaUsersGear size={40} className="text-[#EA5256]" />,
         title: "CRM",
         description: "Our CRM solutions boost growth by enhancing customer relationships through personalized, data-driven insights.",
       },
       {
-        icon: <FaGears  size={40} className="text-green-500" />,
+        icon: <FaGears  size={40} className="text-[#EA5256]" />,
         title: "ERP",
         description: "Our ERP solutions integrate and streamline business processes to enhance efficiency and drive informed decision-making.",
       }

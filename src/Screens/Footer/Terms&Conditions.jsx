@@ -5,7 +5,6 @@ const TermsConditions = () => {
     {
       content: (
         <>
-        <strong className="text-xl font-semibold text-gray-700">Terms of Agreement between You and GembaInfotech</strong>
           <p className="py-6">This agreement outlines the terms of the business relationship between you and GembaInfotech, detailing the responsibilities, scope, and expectations for both parties.</p>
           <ul className="list-disc list-inside mb-4">
             <li>All site content, including text and multimedia, is the client's sole responsibility to provide to GembaInfotech. Content must be supplied before work begins.</li>
@@ -72,7 +71,6 @@ const TermsConditions = () => {
       <div className="container mx-auto px-6 py-8 bg-gray-100 ">
       {TermsConditionsSections.map((section, index) => (
         <div key={index} className="mb-6">
-          {/* <h2 className="text-xl font-semibold text-gray-700">{section.title}</h2> */}
           <p className=" text-gray-600">{section.content}</p>
         </div>
       ))}

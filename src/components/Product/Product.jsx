@@ -18,7 +18,7 @@ const Product = () => {
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center">
-        <div className="px-4 sm:px-6 pt-32 sm:py-36 md:py-40 contrast-200 h-full">
+        <div className="px-4 sm:px-6 pt-32 sm:py-36 md:py-40 h-full">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white animate-slideInLeft">
           One Platform, Endless Possibilities-</h1>
             <h2 className=" text-3xl sm:text-4xl md:text-5xl font-bold animate-slideInRight text-[#EA5256]">

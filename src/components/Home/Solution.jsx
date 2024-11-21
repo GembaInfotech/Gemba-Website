@@ -69,7 +69,7 @@ const SolutionCard = ({ icon, title, description, link }) => (
 const SolutionsGrid = () => {
   return (
     <div className="px-4 sm:px-6 pt-10">
-      <h1 className="text-blue-500 font-bold text-base ">WHAT WE DO ?</h1>
+      <h1 className="text-blue-500 font-bold text-base ">WHAT WE DO?</h1>
       <hr />
       <p className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl my-4">Transforming Ideas into Digital Realities</p>
       

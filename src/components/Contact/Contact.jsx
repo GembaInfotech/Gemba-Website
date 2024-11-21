@@ -1,7 +1,5 @@
 import React from "react";
-// import img14 from "../../assets/img14.jpg";
 import contact from "../../assets/contact.jpg";
-// import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { RiHqLine } from "react-icons/ri";
 import ContactForm from "./ContactForm"
 

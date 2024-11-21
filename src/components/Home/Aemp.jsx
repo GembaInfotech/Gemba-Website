@@ -13,7 +13,7 @@ const Aemp = () => {
 
         {/* Right Text Section */}
         <div className="w-full lg:w-[50%] bg-white p-4 sm:p-6 justify-between rounded-b-3xl lg:rounded-r-3xl lg:rounded-b-none  sm:h-[50vh] lg:h-[48vh] flex flex-col">
-          <h1 className="text-blue-500 font-bold text-base ">WHO WE ARE ?</h1>
+          <h1 className="text-blue-500 font-bold text-base ">WHO WE ARE?</h1>
           <hr className="mb-2 sm:mb-2" />
           <p className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl">
             Driven by Innovation, Defined by Expertise

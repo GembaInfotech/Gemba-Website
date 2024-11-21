@@ -1,6 +1,10 @@
 import React from "react";
 import items from "./ItemData";
-import AppDev from "../../../../assets/AppDev.jpg"
+import AppDev from "../../../../assets/AppDev.jpg";
+import appService from "../../../../assets/appService.jpg";
+import appdev3 from "../../../../assets/appdev3";
+import cardfooter from "../../../../assets/cardfooter.jpg";
+import cardheader from "../../../../assets/cardheader.jpg";
 import { NavLink } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -10,7 +14,7 @@ const App_Dev = () => {
     <div className="relative h-full overflow-hidden bg-white font-custom pt-20">
       <header className="relative w-full h-[50vh] md:h-[60vh] lg:h-[65vh] overflow-hidden font-custom">
         <img
-          src="https://png.pngtree.com/background/20210709/original/pngtree-earth-transaction-global-trade-data-picture-image_926206.jpg"
+          src={cardheader}
           alt="Header"
           className="absolute inset-0 object-cover w-full h-full"
         />
@@ -117,7 +121,7 @@ const App_Dev = () => {
       {/* Application Development As a Service */}
       <div className="relative w-full h-[50vh] sm:h-[55vh] md:h-[60vh] lg:h-[65vh] overflow-hidden mt-10">
         <img
-          src="https://sivandesign.com/wp-content/uploads/2016/11/SD-Top-Slides-HOME-1920x520.jpg" // Replace with your image URL
+          src={appService}
           alt="Footer Background"
           className="absolute inset-0 object-cover w-full h-full"
         />
@@ -177,14 +181,14 @@ const App_Dev = () => {
         </div>
       </div>
 
-      {/* SECOND IMAGE */}
+      {/* THIRD IMAGE */}
       <div className="flex flex-col md:flex-row items-start justify-between mx-4 sm:mx-6 lg:mx-8 mt-10">
         {/* Image Section */}
         <div className="w-full md:w-[45%] lg:w-[700px]">
           <img
             className="w-full h-[35vh] sm:h-[40vh] md:h-[45vh] lg:h-[47vh] rounded-md object-cover"
-            src="https://img.freepik.com/premium-photo/cardano-blockchain-platform_23-2150411956.jpg"
-            alt="second-pic"
+            src={appdev3}
+            alt="3-pic"
           />
         </div>
 
@@ -267,7 +271,7 @@ const App_Dev = () => {
       {/* Footer Section */}
       <div className="relative w-full h-[50vh] md:h-[60vh] lg:h-[65vh] ">
         <img
-          src="https://t3.ftcdn.net/jpg/05/79/48/52/360_F_579485255_hzHox0stuQmBx5QViwnQqQjk7RD2AJza.jpg"
+          src={cardfooter}
           alt="Footer Background"
           className="absolute inset-0 object-cover w-full h-full"
         />
