@@ -15,7 +15,7 @@ const services = [
     title: "Application Development",
     image: App,
     description: "Tailored software solutions crafted to meet specific business needs, ensuring efficiency and scalability..",
-      link: "/app",
+      link: "/application-development",
   },
   {
     id: "02",
@@ -57,7 +57,7 @@ const services = [
     title: "Vendor Portal",
     image: vendor,
     description: "Secure and intuitive portals that facilitate seamless collaboration and communication between vendors and businesses..",
-      link: "/vendor",
+      link: "/vendor-portal",
   },
   {
     id: "08",

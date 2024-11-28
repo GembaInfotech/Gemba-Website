@@ -5,6 +5,7 @@ import appService from "../../../../assets/appService.jpg";
 import appdev3 from "../../../../assets/appdev3";
 import cardfooter from "../../../../assets/cardfooter.jpg";
 import cardheader from "../../../../assets/cardheader.jpg";
+import parkingImg from "../../../../assets/parkingImg.PNG";
 import { NavLink } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -247,6 +248,43 @@ const App_Dev = () => {
         </div>
       </div>
 
+      <div className="flex flex-col md:flex-row items-start justify-between mx-4 sm:mx-6 lg:mx-8 my-10 py-2 bg-slate-200 rounded-lg">
+        {/* Text-content Section */}
+        <div className="w-full md:w-[50%] mt-5 md:mt-0 lg:px-4 lg:py-6">
+          <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
+            Our expertise in app development 
+          </div>
+          <p className="w-full my-4 sm:mt-5 text-base text-gray-600">
+          Our journey started with a clear vision: to simplify parking and make it accessible to everyone.
+We developed our parking application to tackle the everyday hassle of finding a secure, convenient parking spot.
+<br />
+<br />
+Discover how we're transforming parking experiences by visiting our website below:
+          </p>
+          <div className="items-center justify-center">
+          <a
+                href="http://know2parking.com:4005/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="my-2 bg-[#EA5256] font-semibold text-md px-6 py-2 rounded-full hover:bg-[#e77b7f] "
+              >
+                Get Parking
+              </a>
+              </div>
+        </div>
+
+        {/* Image Section */}
+        <div className=" w-full md:w-[50%] mt-5 md:mt-0 lg:px-4 items-center">
+          <img
+            className="  object-contain"
+            src={parkingImg}
+            alt="parking-pic"
+          />
+          
+        </div>
+
+      </div>
+
       {/* Div to be positioned below */}
       <div className=" max-w-full sm:max-w-[90%] md:max-w-[75%] lg:max-w-[60%] mx-4 sm:mx-6 md:mx-8 mt-10 md:mt-0 text-start">
         <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
@@ -268,6 +306,8 @@ const App_Dev = () => {
           ))}
         </ol>
       </div>
+
+
       {/* Footer Section */}
       <div className="relative w-full h-[50vh] md:h-[60vh] lg:h-[65vh] ">
         <img

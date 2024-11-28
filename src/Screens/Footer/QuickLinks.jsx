@@ -34,18 +34,7 @@ const QuickLinks = () => {
           About Us
         </a>
       </li>
-      <li className="mt-1">
-        <a
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            navigate('/contact');
-          }}
-          className="hover:text-[#EA5256]"
-        >
-          Contact
-        </a>
-      </li>
+      
       <li className="mt-1">
         <a
           href="#"
@@ -56,6 +45,18 @@ const QuickLinks = () => {
           className="hover:text-[#EA5256]"
         >
           Services
+        </a>
+      </li>
+      <li className="mt-1">
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            navigate('/contact');
+          }}
+          className="hover:text-[#EA5256]"
+        >
+          Contact Us
         </a>
       </li>
       <li className="mt-1">

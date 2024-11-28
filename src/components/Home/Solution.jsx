@@ -9,7 +9,7 @@ const solutions = [
     icon: <FaCode size={40} className="text-[#EA5256]" />,
     title: "Application Development",
     description: "We have established a structured onsite-offshore methodology for developments including...",
-    link: "/app"
+    link: "/application-development"
   },
   {
     icon: <FaServer size={40} className="text-[#EA5256]" />,
@@ -45,7 +45,7 @@ const solutions = [
     icon: <TbUserDollar size={40} className="text-[#EA5256]" />,
     title: "Vendor Portal",
     description: "Revolutionize the way you handle vendor relationships with the Gemba Vendor Portal...",
-    link: "/vendor"
+    link: "/vendor-portal"
   },
   {
     icon: <FaUsersGear size={40} className="text-[#EA5256]" />,

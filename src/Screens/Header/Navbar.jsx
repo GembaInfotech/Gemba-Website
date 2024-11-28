@@ -152,7 +152,7 @@ const Navbar = () => {
                   to="/contact"
                   activeClassName="bg-white"
                 >
-                  Contact
+                  Contact Us
                 </NavLink>
               </div>
               <a

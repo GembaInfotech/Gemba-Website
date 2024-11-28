@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.19d15d9d.css",
-    "main.js": "/static/js/main.94b72bd8.js",
+    "main.css": "/static/css/main.bd9a79ca.css",
+    "main.js": "/static/js/main.1639cc5b.js",
     "static/media/img3.jpg": "/static/media/img3.6d34b2afe9ca204b8ebe.jpg",
     "static/media/img12.jpg": "/static/media/img12.0179e9b02c5d892a3df8.jpg",
     "static/media/Birthday.jpg": "/static/media/Birthday.8be9e82ae38442f76e8b.jpg",
@@ -62,6 +62,7 @@
     "static/media/contact.jpg": "/static/media/contact.092d8a6066a27d51841b.jpg",
     "static/media/Dlink.png": "/static/media/Dlink.2da73206cc9029fd6e3d.png",
     "static/media/Modelimg.PNG": "/static/media/Modelimg.5f41d8376f6eddb09ff3.PNG",
+    "static/media/parkingImg.PNG": "/static/media/parkingImg.2be99fbf73333293eca0.PNG",
     "static/media/impli.jpeg": "/static/media/impli.a1293c6d109aa6360cde.jpeg",
     "static/media/cardfooter.jpg": "/static/media/cardfooter.a0b60c9bb003a8a0836f.jpg",
     "static/media/imp&trns.jpeg": "/static/media/imp&trns.7b38da32206857d710fa.jpeg",
@@ -92,11 +93,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.19d15d9d.css.map": "/static/css/main.19d15d9d.css.map",
-    "main.94b72bd8.js.map": "/static/js/main.94b72bd8.js.map"
+    "main.bd9a79ca.css.map": "/static/css/main.bd9a79ca.css.map",
+    "main.1639cc5b.js.map": "/static/js/main.1639cc5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.19d15d9d.css",
-    "static/js/main.94b72bd8.js"
+    "static/css/main.bd9a79ca.css",
+    "static/js/main.1639cc5b.js"
   ]
 }

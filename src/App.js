@@ -43,13 +43,13 @@ function App() {
           <Route path="/contact" Component={Contact} />
           <Route path="/partner" Component={Partner}/>
           <Route path="/faq" Component={FAQ}/>
-          <Route path="/app" Component={AppDev}/>
+          <Route path="/application-development" Component={AppDev}/>
           <Route path="/migration" Component={Migration}/>
           <Route path="/implimentation" Component={Implimentation}/>
           <Route path="/appmang" Component={AppManagement}/>
           <Route path="/SAP" Component={SAP}/>
           <Route path="/ReverseAuction" Component={ReverseAuction}/>
-          <Route path="/vendor" Component={Vendor}/>
+          <Route path="/vendor-portal" Component={Vendor}/>
           <Route path="/ERP" Component={ERP}/>
           <Route path="/Infra" Component={IT_Infra}/>
           <Route path="/cio-gallery" Component={CIO_Gallery} />
