@@ -3,12 +3,20 @@ import { MdOutlineHealthAndSafety, MdOutlineInventory } from "react-icons/md";
 import { GrUserManager } from "react-icons/gr";
 import { LiaFileInvoiceDollarSolid } from "react-icons/lia";
 import { FaUsersGear, FaGears } from "react-icons/fa6";
+import { FaParking } from "react-icons/fa";
 
 const products = [
+  {
+    icon: <FaParking  size={40} className="text-[#EA5256]" />,
+    title: "Parking Application",
+    description: "Efficient parking solutions for seamless access, convenience, and security in every space.",
+    link: "http://know2parking.com/" 
+  },
+
     {
       icon: <MdOutlineHealthAndSafety size={40} className="text-[#EA5256]" />,
       title: "Healthcare Management",
-      description: "Our Healthcare Management solutions optimize patient care with advanced, integrated technology.",
+      description: "Healthcare Management solutions enhancing patient care through advanced, integrated technology for better outcomes.",
     },
    
     {
@@ -24,7 +32,7 @@ const products = [
       {
         icon: <LiaFileInvoiceDollarSolid size={40} className="text-[#EA5256]" />,
         title: "Assets Management",
-        description: "Our asset management solutions provide comprehensive tracking and efficiency of your assets.",
+        description: "Our asset management solutions ensure comprehensive tracking and optimal efficiency of your assets.",
       },
       {
         icon: <FaUsersGear size={40} className="text-[#EA5256]" />,
@@ -38,12 +46,25 @@ const products = [
       }
   ];
   
-  const ProductCard = ({ icon, title, description }) => (
-    <div className="bg-white p-6 shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl rounded-tl-2xl rounded-br-2xl ">
-    <div className="mb-4 items-center">{icon}</div>
-    <h3 className="text-xl font-semibold mb-4">{title}</h3>
-    <p className="text-gray-600 mb-6">{description}</p>
-  </div>
+  const ProductCard = ({ icon, title, description, link }) => (
+    <div className="bg-white p-6 shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl rounded-tl-2xl rounded-br-2xl">
+      {link ? (
+        // If a link is provided, wrap the content in an anchor tag
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <div className="mb-4 items-center">{icon}</div>
+          <h3 className="text-xl font-semibold mb-4">{title}</h3>
+          <p className="text-gray-600 mb-4 tracking-normal ">{description}</p>
+          <p className='font-bold text-xl text-[#EA5256]'>GET PARKING</p>
+        </a>
+      ) : (
+        // If no link, render the content normally
+        <div>
+          <div className="mb-4 items-center">{icon}</div>
+          <h3 className="text-xl font-semibold mb-4">{title}</h3>
+          <p className="text-gray-600 mb-6 tracking-normal ">{description}</p>
+        </div>
+      )}
+    </div>
   );
   
   const ProductGrid = () => {
@@ -56,11 +77,11 @@ const products = [
             </div>
             
             <div className="bg-gray-200 py-6 px-4 md:px-6 lg:px-8">
-  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-center justify-center">
     {products.map((Product, index) => (
       <div
         key={index}
-        className="w-full md:w-[350px] lg:w-[400px] transform translate-y-4 animate-fadeInUp delay-[100ms]"
+        className="w-full md:w-[250px] lg:w-[300px] lg:h-[300px] transform translate-y-4 animate-fadeInUp delay-[100ms]"
       >
         <ProductCard key={index} {...Product} />
       </div>

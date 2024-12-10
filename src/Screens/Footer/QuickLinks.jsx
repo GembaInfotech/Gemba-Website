@@ -31,7 +31,7 @@ const QuickLinks = () => {
           }}
           className="hover:text-[#EA5256]"
         >
-          About Us
+          About us
         </a>
       </li>
       
@@ -56,7 +56,7 @@ const QuickLinks = () => {
           }}
           className="hover:text-[#EA5256]"
         >
-          Contact Us
+          Contact us
         </a>
       </li>
       <li className="mt-1">

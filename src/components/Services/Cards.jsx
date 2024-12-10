@@ -93,7 +93,7 @@ const ServiceCard = () => {
   
           {/* Overlay with Service ID and Title */}
           <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-end p-4 md:p-6 cursor-pointer shadow-xl">
-            <p className="text-[#EA5256] text-lg md:text-xl font-bold">
+            <p className="text-white text-lg md:text-2xl font-bold">
               {service.id}
             </p>
             <h3 className="text-white text-xl md:text-2xl font-semibold">
@@ -106,7 +106,7 @@ const ServiceCard = () => {
             className="absolute inset-0 bg-slate-300 flex flex-col justify-start p-4 md:p-5 cursor-pointer hover:animate-slideUp opacity-0 hover:opacity-100 transition-opacity duration-300"
             style={{ animationDelay: `${index * 0.1}s` }}
           >
-            <p className="text-[#EA5256] text-lg md:text-xl font-bold mb-2">
+            <p className="text-[#EA5256] text-lg md:text-2xl font-bold mb-2">
               {service.id}
             </p>
             <h3 className="text-gray-700 text-xl md:text-2xl font-semibold mb-2">

@@ -248,7 +248,7 @@ const App_Dev = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-start justify-between mx-4 sm:mx-6 lg:mx-8 my-10 py-2 bg-slate-200 rounded-lg">
+      <div className="flex flex-col md:flex-row items-start justify-between mx-4 sm:mx-6 lg:mx-8 my-10 px-4 py-2 bg-slate-200 rounded-lg">
         {/* Text-content Section */}
         <div className="w-full md:w-[50%] mt-5 md:mt-0 lg:px-4 lg:py-6">
           <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
@@ -263,7 +263,7 @@ Discover how we're transforming parking experiences by visiting our website belo
           </p>
           <div className="items-center justify-center">
           <a
-                href="http://know2parking.com:4005/"
+                href="http://know2parking.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="my-2 bg-[#EA5256] font-semibold text-md px-6 py-2 rounded-full hover:bg-[#e77b7f] "

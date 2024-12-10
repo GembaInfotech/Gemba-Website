@@ -117,7 +117,7 @@ const Navbar = () => {
                   to="/about"
                   activeClassName="bg-white"
                 >
-                  About Us
+                  About us
                 </NavLink>
                 <NavLink
                   className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center"
@@ -152,7 +152,7 @@ const Navbar = () => {
                   to="/contact"
                   activeClassName="bg-white"
                 >
-                  Contact Us
+                  Contact us
                 </NavLink>
               </div>
               <a
@@ -184,7 +184,7 @@ const Navbar = () => {
               to="/about"
               onClick={() => setMenuOpen(false)}
             >
-              About Us
+              About us
             </NavLink>
             <NavLink
               className="block py-2 text-lg font-semibold"
@@ -219,7 +219,7 @@ const Navbar = () => {
               to="/contact"
               onClick={() => setMenuOpen(false)}
             >
-              Contact
+              Contact us
             </NavLink>
             <a
               href="https://gembainfotech.com/hrm/admin/users/login"
